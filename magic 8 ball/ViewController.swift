@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var answerImageView: UIImageView!
+    
+    @IBAction func askButtonPressed(_ sender: Any) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        answerImageView.image = UIImage(named: "ball3")
     }
 
 
